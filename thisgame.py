@@ -18,8 +18,8 @@ class ThisGame():
         elif userInput == "scissors":
             if computerInput == "paper":
                 return "Scissors cuts paper! You win!"
-        else:
-            return "Rock smashes scissors! You lose."
+            else:
+                return "Rock smashes scissors! You lose."
 
     def initial(self):
         print("Choose an option.")
